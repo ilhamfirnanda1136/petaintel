@@ -1,0 +1,2 @@
+<a href="{{url('edit/peta/radikalisme/')}}/{{$model->id}}" class="btn-primary btn-sm btn btn-edit"><i class="fa fa-pencil"></i></a>
+<a href="data/hapus/radikalisme" data-id="{{$model->id}}"  onclick="event.preventDefault()" class="btn-danger btn btn-sm btn-delete"><i class="fa fa-trash"></i></a> 
